@@ -1,0 +1,38 @@
+/*body styles */
+ body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  background-color: #0095c2;
+}
+
+h2 {
+  color: white; 
+  text-align:center;
+}
+
+/*search-container styles
+.search-container a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}*/
+
+/* Style the search box inside the navigation bar */
+.search-container input[type='text'] {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 5px;
+  font-size: 14
+  px;
+}
+
+.worldmap {
+ border:5px;
+
+}
