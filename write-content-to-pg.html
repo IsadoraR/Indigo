@@ -21,7 +21,9 @@
 
 <p></p>
 
-  <div id="print-write">Print Things</div>
+<div>
+<py-terminal>
+</div>
   <button py-click="print_to_page()" id="print">Print Things!</button>
 
   <py-script>
@@ -33,7 +35,7 @@
     display("I display things!", target="display-write")
 
   def print_to_page():
-    print("I print things!", target="print-write")
+    print("I print things!")
 
   
   </py-script>
